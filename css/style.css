@@ -1,0 +1,73 @@
+/* Navbar */
+.brand-logo {
+    color: #80cbc4 !important;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.brand-logo:hover {
+    color: #e0f2f1 !important;
+}
+
+#nav-mobile {
+    font-weight: 600;
+}
+
+
+.edukasi li h6 {
+    font-weight: 600;
+    margin-bottom: -7px;
+}
+
+
+
+/* Portfolio */
+.card,
+.card-image {
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card-image {
+    padding: 50px;
+}
+
+.hover:hover .card {
+    transform: scale(.9);
+}
+
+.hover:hover .card .card-image {
+    transform: scale(1.3);
+}
+
+.card-content h3{
+    margin-top: 0;
+    font-weight: 600;
+}
+
+.icon {
+    margin-right: 7px;
+}
+
+.icon img {
+    color: white;
+}
+
+footer {
+    padding: 30px;
+}
+
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #cbff0e;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #00897b;
+    box-shadow: 0 1px 0 0 #00897b;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #00897b;
+    box-shadow: 0 1px 0 0 #00897b;
+  }
